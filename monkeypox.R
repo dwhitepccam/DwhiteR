@@ -8,3 +8,8 @@ clean_names(newdata)
  ggplot(newdata,aes(`Research Activity`, colour = `Agency and Office Name`))
  geom_bar()
  
+ 
+
+ install.packages("usethis")
+ 
+ usethis::use_git_config(user.name="dwhitepccam", user.email="dwhitepccam@gmailcom")
