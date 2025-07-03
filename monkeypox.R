@@ -7,8 +7,8 @@ mutate(anticipated_completion,as_date())
 clean_names(newdata)
  ggplot(newdata,aes(`Research Activity`, colour = `Agency and Office Name`))
  geom_bar()
- 
- 
+ install.packages("esquisse")
+ install.packages("plotly")
 
  install.packages("usethis")
  
